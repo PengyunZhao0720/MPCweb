@@ -1,0 +1,55 @@
+
+/* styles.css */
+
+.details summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section-content {
+    margin-left: 20px;
+}
+
+.section-content h3 {
+    margin-top: 10px;
+}
+
+/* 新增样式 */
+.tabs-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background-color: #f5f5f5;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.tab-content {
+    background-color: #fff;
+    border: 0.5px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.instructors .instructor-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.instructors .instructor-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
